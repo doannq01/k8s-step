@@ -5,3 +5,4 @@ echo "*******. Check docker  ********"
 /usr/local/bin/docker version
 
 echo "*******. Check node  ********"
+echo $GIT_COMMIT
