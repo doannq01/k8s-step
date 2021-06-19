@@ -2,7 +2,8 @@ echo "*********Start Check********"
 ls
 
 echo "*******. Check docker  ********"
-/usr/local/bin/docker version
+export docker=/usr/local/bin/docker
+docker version
 
 echo "*******. Check node  ********"
 echo $GIT_COMMIT
