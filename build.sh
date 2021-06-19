@@ -2,8 +2,6 @@ echo "*********Start Check********"
 ls
 
 echo "*******. Check docker  ********"
-which docker
+/usr/local/bin/docker version
 
 echo "*******. Check node  ********"
-which docker
-
