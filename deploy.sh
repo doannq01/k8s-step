@@ -1,3 +1,3 @@
 echo "***. Deploy ***"
 
-/usr/local/bin/docker run -d -p 5000:80 image:$GIT_COMMIT
+/usr/local/bin/docker-compose -f "docker-compose.yml" up -d
