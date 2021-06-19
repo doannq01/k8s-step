@@ -11,5 +11,4 @@ echo "***. Build Image  ***"
 
 /usr/local/bin/docker build -t image:$GIT_COMMIT .
 
-
 /usr/local/bin/docker image ls
