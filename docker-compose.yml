@@ -1,7 +1,7 @@
 version: "3.6"
 services:
   client:
-    image: image:b3e599ce9278f213593150164478d4583e9e6ec4
+    image: image:2
     expose:
       - "5000"
     ports:
